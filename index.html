@@ -31,9 +31,14 @@
 
 /* Global card styling */
 
+body {
+  margin: 0 auto;
+}
+
 .card-wrapper {
 
-  margin: 5rem;
+  margin: 10rem auto;
+  max-width: 750px;
 
   border-radius: .5rem;
   overflow: hidden;
@@ -42,12 +47,7 @@
 
 }
 
-@media screen and (max-width: 1000px) {
 
-.card-wrapper {
-  flex-direction: column;
-}
-}
 
 .card {
 
@@ -97,6 +97,15 @@ padding: .5rem 1rem;
 
 font-family: 'Lexend Deca';
 font-weight: 400;
+
+}
+
+@media screen and (max-width: calc(750px + 10rem)) {
+
+.card-wrapper {
+  flex-direction: column;
+  margin: 0;
+}
 
 }
 
