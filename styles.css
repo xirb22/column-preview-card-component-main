@@ -50,10 +50,10 @@ body {
 @media screen and (max-width: 750px) {
   .card-wrapper {
     flex-direction: column;
-    margin: 0;
+    margin-inline: 1rem;
   }
   .card-wrapper .card {
-    padding: 3rem 4rem;
+    padding: 3rem 3rem;
   }
   .card-wrapper .card p {
     padding-block-end: 1rem;
