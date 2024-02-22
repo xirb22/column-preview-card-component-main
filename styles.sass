@@ -21,7 +21,7 @@ body
 .card-wrapper
     margin: 10rem auto
     
-    max-width: 750px
+    max-width: 860px
     border-radius: .5rem
 
     overflow: hidden
@@ -34,16 +34,19 @@ body
 
         align-items: start
 
-        padding: 2rem 
+        padding: 3rem 2rem 
 
     h1 
 
         font-family: 'Big Shoulders Display'
         font-weight: 700
+        font-size: 3rem
 
         color: $clr-very-light-grey
 
         text-transform: uppercase
+
+        margin-block-end: .825rem
 
     p 
         font-family: 'Lexend Deca'
@@ -51,7 +54,7 @@ body
 
         color: $clr-transparent-white
 
-        line-height: 1.25rem
+        line-height: 1.5rem
 
         flex-basis: 50%
 
@@ -63,18 +66,26 @@ body
         border: 1px solid $clr-very-light-grey
         border-radius: 20rem
 
-        padding: .5rem 1rem
+        padding: .6125rem 1.5rem
 
         font-family: 'Lexend Deca'
         font-weight: 400
 
 
 
-@media screen and (max-width: calc(750px + 10rem)) 
+@media screen and (max-width: 750px)
 
     .card-wrapper 
         flex-direction: column
         margin: 0
+
+        .card
+            padding: 3rem 4rem
+
+            p
+                padding-block-end: 1rem
+        
+    
 
 
 
